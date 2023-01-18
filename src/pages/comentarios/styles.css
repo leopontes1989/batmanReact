@@ -1,0 +1,40 @@
+
+
+p {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 24px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#textarea {
+    width: 50%;
+    border-radius: 5px;
+    margin-left: 270px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.button-pos {
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media (max-width: 768px) {
+
+   .button-pos {
+
+    display: block;    
+    width: 95%;
+    margin-left: 20px;
+}
+
+    #textarea {
+        width: 90%;
+        margin: 20px;
+    }
+
+}

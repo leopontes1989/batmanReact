@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Open+Sans&display=swap');
+
+#header-contato {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width:  100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #d21617;
+}
+
+#logo {
+    width: 150px;
+    height: 90px;
+}
+
+.postContato {
+    background-image: url("https://legadodadc.com.br/wp-content/uploads/2021/11/FD1yq6PWUAYeJUv-1028x1536.jpg");
+    width: 400px;
+    height: 600px;
+    margin-left: 40px;
+    margin-top: 30px;
+    background-size: cover;
+    
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+
+    
+    /* justify-content: center; */
+}
+
+.contact-us {
+    
+    color: white;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tel {
+color: #fff;
+font-size: 19px;
+font-family: 'Kdam Thmor Pro', sans-serif;
+margin: 50px;
+}
+
+.mail {
+color: #fff;
+font-size: 19px;
+font-family: 'Kdam Thmor Pro', sans-serif;
+margin: 50px;
+}
+
+.button-pos {
+    display: flex;
+    justify-content: center;
+}
+    
+    
+
+.button {
+    line-height: 25px;
+}
+
+
+  
+
+.icons {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.icons li {
+    font-size: 2em;
+    margin-left: 55px;
+   
+}
+    
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+}
+    
+
+
+
